@@ -28,7 +28,7 @@
   <script src="block_exporter_controller.js"></script>
   <script src="blocks.js"></script>
   <script src="app_controller.js"></script>
-  <script src="/storage.js"></script>
+  <script src="../../appengine/storage.js"></script>
   <link rel="stylesheet" href="factory.css">
   <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
   <script>
@@ -140,9 +140,9 @@
         <div class="dropdown">
         <button id="button_importBlocks">Import Custom Blocks</button>
           <div id="dropdownDiv_importBlocks" class="dropdown-content">
-            <input type="file" id="input_importBlocksJson" accept=".js, .json, .txt" class="inputfile"</input>
+            <input type="file" id="input_importBlocksJson" accept=".js, .json, .txt" class="inputfile"></input>
             <label for="input_importBlocksJson">From JSON</label>
-            <input type="file" id="input_importBlocksJs" accept=".js, .txt" class="inputfile"</input>
+            <input type="file" id="input_importBlocksJs" accept=".js, .txt" class="inputfile"></input>
             <label for="input_importBlocksJs">From Javascript</label>
           </div>
         </div>
@@ -152,7 +152,7 @@
           <div id="dropdownDiv_load" class="dropdown-content">
             <input type="file" id="input_loadToolbox" accept=".xml" class="inputfile"></input>
             <label for="input_loadToolbox">Toolbox</label>
-            <input type="file" id="input_loadPreload" accept=".xml" class="inputfile"</input>
+            <input type="file" id="input_loadPreload" accept=".xml" class="inputfile"></input>
             <label for="input_loadPreload">Workspace Blocks</label>
           </div>
         </div>
